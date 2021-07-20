@@ -1,23 +1,23 @@
 # __GeoInfo__
-#####__GeoInfo__ is a Python module for getting a lot information/data about countries
+##### __GeoInfo__ is a Python module for getting a lot information/data about countries
 
-#####Supported info:
+##### Supported info:
 1. Capital
 2. Region
 3. Population
 4. Area
 5. Currency
 6. Borders
-##Installing
+## Installing
 ```
 git clone https://github.com/DevPer3301/geoinfo.git
 ```
-##Pre-Requiredment
+## Pre-Requiredment
 ```
 pip3 install -r requirements.txt
 ```
 
-##Using
+## Using
 ```python
 from geoinfo import *
 
