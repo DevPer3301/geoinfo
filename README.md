@@ -19,20 +19,20 @@ pip3 install -r requirements.txt
 
 ## Using
 ```python
-from geoinfo import *
+from geoinfo import geoinfo
 
 
-print(get_capital("Germany")) #With using get_capital you can get  information about capital of the country
+print(geoinfo.get_capital("Germany")) #With using get_capital you can get  information about capital of the country
 
-print(get_borders("Usa")) #With using get_borders you can get  information about borders of the country
+print(geoinfo.get_borders("Usa")) #With using get_borders you can get  information about borders of the country
 
-print(get_population("China")) #With using get_population you can get  information about population of the country
+print(geoinfo.get_population("China")) #With using get_population you can get  information about population of the country
 
-print(get_region("Australia")) #With using get_region you can get  information about region of the country
+print(geoinfo.get_region("Australia")) #With using get_region you can get  information about region of the country
 
-print(get_area("Russia")) #With using get_area you can get  information about area of the country
+print(geoinfo.get_area("Russia")) #With using get_area you can get  information about area of the country
 
-print(get_currency("Ukraine")) #With using get_currency you can get  information about currency of the country
+print(geoinfo.get_currency("Ukraine")) #With using get_currency you can get  information about currency of the country
 ```
 > Berlin
 >
