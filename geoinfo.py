@@ -137,7 +137,6 @@ def get_borders(country):
     except (KeyError, ValueError):
         raise UnknownCountry(country) from None
 
-
 doctest.testmod()
 
 
