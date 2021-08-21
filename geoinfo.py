@@ -128,8 +128,8 @@ def get_borders(country):
     >>> print(get_borders("Qatar"))
     ['SAU']
 
-    >>> print(get_borders("Mexico"))
-    ['BLZ', 'GTM', 'USA']
+    >>> print(get_borders("Australia"))
+    []
     """
     data_info = get_info(country)
     try:
@@ -139,4 +139,5 @@ def get_borders(country):
 
 
 doctest.testmod()
+
 
